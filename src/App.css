@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Baseball';
+  src: local('Baseball'), url(./fonts/Bulletto-Killa.ttf) format('truetype')
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.Title {
+  padding-top: 2vh;
+  text-align: center;
+  height: 15vh;
+  font-family: 'Baseball';
+}
+h1 {
+  text-align: center;
+  font-family: 'Baseball';
+  height: 8vh;
+  font-size: 3vw;
+}
+.Title h1 {
+  font-size: 5vw;
+  line-height: 9vh;
+}
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 55.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.navbar {
+  font-family: "lato";
+  height: fit-content;
+  font-size: 1vw;
+  display: flex;
+  padding: 0.2rem calc((100vw - 1000px) / 2);
+  z-index: 12;
+}
+
+.card {
+  border-width: .18vw;
+  border-color: HSL(211,70, 17);
+  font-family: "Baseball";
+  font-size: medium
+}
+
