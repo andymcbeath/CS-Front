@@ -1,14 +1,10 @@
+import Card from "react-bootstrap/Card"
+
 export default function Bio () {
   return(
-  <div>
+    <Card className="Bio shadow d-flex flex-column align-items-center" style={{width: "75%", height: "fit-content"}}>
     <h1>Bio</h1>
-    <p>The musicians of Chicago based Caught Steelin' share a passion for the steel pan - the national instrument of Trinidad and Tobago. With our roots in the University of Illinois School of Music, we bring a wealth of experience and expertise to every performance.
-
-    Our versatile repertoire includes traditional calypso, latin jazz, and a range of popular genres, all infused with our signature steel pan sound. We're also known for adding a unique twist to classic ballpark tunes, inspired by our lifelong love for baseball.
-    
-    At Caught Steelin', we take pride in providing exceptional live entertainment for any occasion. Whether we're playing at a wedding, corporate event, or festival, we bring the energy and professionalism needed to make every performance a memorable experience for our audience.
-    
-    So, if you're looking for a top-notch musical act that knows how to bring the party, look no further than Caught Steelin'.</p>
-  </div>
+    <p>Alumni of the University of Illinois School of Music, Caught Steelin’ is a Chicago-based steel band. Combining our love of the steel pan (the national instrument of Trinidad and Tobago) with our lifelong baseball fandom, we play a wide range of musical styles including traditional calypso, latin jazz, pop, rock. We play for a variety of events and venues, from baseball stadiums to weddings and everything in between! Click on our booking link to book us today! </p>
+  </Card>
   )
 }

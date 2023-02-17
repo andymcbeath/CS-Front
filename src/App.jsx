@@ -2,7 +2,7 @@ import  Navigator  from "./components/Navigator";
 import  Home  from "./pages/Home";
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Routes, Route, Link, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Booking from "./pages/Booking";
 import  Merch from "./pages/Merch";
 import EPK from "./pages/media/epk";

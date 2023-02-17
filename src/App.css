@@ -36,13 +36,10 @@ h1 {
   width: 100%;
   position: absolute;
 }
-.navbar {
-  font-family: "lato";
-  height: fit-content;
-  font-size: 1vw;
+.navbar-nav {
   display: flex;
-  padding: 0.2rem calc((100vw - 1000px) / 2);
-  z-index: 12;
+  justify-content: space-between;
+  width: 50%;
 }
 
 .card {
@@ -52,3 +49,15 @@ h1 {
   font-size: medium
 }
 
+.nav-link {
+  font-size: x-large
+}
+
+.card {
+  font-family: "Baseball";
+  font-size: x-large;
+}
+
+.Bio {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -7,6 +7,8 @@ import { Formik } from 'formik';
 import * as Yup from 'yup';
 import Card from 'react-bootstrap/Card'
 
+import axios from 'axios';
+
 const schema = Yup.object().shape({
   firstName: Yup.string().required(),
   lastName: Yup.string().required(),
@@ -16,7 +18,7 @@ const schema = Yup.object().shape({
 
 export default function Booking() {
   return (
-    <div style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center"}}>
       <Card className="shadow d-flex flex-column align-items-center" style={{width: "75%"}} border="dark">
         <Card.Body className="d-flex flex-column align-items-center">
           <h1>Book Us Today!</h1>
@@ -29,8 +31,13 @@ export default function Booking() {
               event: ''
             }}
             onSubmit={async (values) => {
-              await new Promise((r) => setTimeout(r, 500));
-              alert(JSON.stringify(values, null, 2));
+              try{
+              await axios.post("http://localhost:3000/bookings", values);
+              alert("Form submitted successfully!");
+            } catch (error) {
+              console.error(error);
+              alert("Form submission failed");
+              }
             }}
           >
             {({

@@ -6,18 +6,14 @@ import Row from 'react-bootstrap/Row';
 export default function EPK() {
   return (
     <div className="container">
-      <Row className="my-5">
+      <Row>
         <Col>
-          {/* <h1 className="text-center">About Us</h1> */}
+          <h1 className="text-center">About Us</h1>
         </Col>
       </Row>
       <Row>
-        <Col xs={{ span: 10, offset: 1 }} md={{ span: 8, offset: 2 }} lg={{ span: 6, offset: 3 }}>
-          <Card className="shadow mb-5">
-            <Card.Body>
-              <Bio />
-            </Card.Body>
-          </Card>
+        <Col xs={{ span: 22, offset: 2 }} md={{ span: 18, offset: 2 }} lg={{ span: 14, offset: 2 }}>
+          <Bio />
         </Col>
       </Row>
     </div>

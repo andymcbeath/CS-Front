@@ -6,7 +6,7 @@ export default function PhotoOfBand() {
       <Card className="shadow d-flex flex-column align-items-center" style={{width: "75%", color: 'white'}}>
         <Card.Img src="../src/assets/Photo1.jpeg" alt="Card image" />
         <Card.ImgOverlay>
-          <Card.Title style={{fontSize: "8rem", textAlign: "center", justifyContent: "center", alignItems: "center"}}>Caught Steelin'</Card.Title>
+          <Card.Title style={{fontSize: "7rem", textAlign: "center", justifyContent: "center", alignItems: "center"}}>Caught Steelin'</Card.Title>
           <Card.Text style={{fontFamily: "Baseball", fontSize: "2rem", position: 'absolute', bottom: 0, left: 0, color: 'white'}}>
             Caught Steelin' is:
             <br />
