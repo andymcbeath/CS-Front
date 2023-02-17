@@ -1,7 +1,5 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import YouTubeEmbed from './media/YouTubeVids';
 import "../fonts/Bulletto-Killa.ttf";
 import PhotoOfBand from "../components/photo-of-band";
 import ReactPlayer from 'react-player'
@@ -25,11 +23,6 @@ export default function Home() {
         <Card className="shadow d-flex flex-column align-items-center" style={{width: "75%", height: "150vh"}}>
           <ReactPlayer url="https://soundcloud.com/user-689447295-942243342?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" width="100%" height="100%"/>
         </Card>
-      </Row>
-      <Row className="Video py-6">
-        <Col>
-          <YouTubeEmbed embedId="dOyEhaNnqZ8"/>
-        </Col>
       </Row>
     </Container>
   );
