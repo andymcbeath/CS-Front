@@ -4,8 +4,7 @@ import "../fonts/Bulletto-Killa.ttf";
 import PhotoOfBand from "../components/photo-of-band";
 import ReactPlayer from 'react-player';
 import Card from "react-bootstrap/Card";
-import YoutubeVids from './YoutubeVids';
-import { auto } from '@popperjs/core';
+
 
 export default function Home() {
   return (
