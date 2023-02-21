@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import { TwitterEmbed } from 'react-social-media-embed';
 import Row from "react-bootstrap/Row";
 import Card from 'react-bootstrap/Card';
-import { TwitterTimelineEmbed, TwitterShareButton, TwitterFollowButton, TwitterHashtagButton, TwitterMentionButton, TwitterTweetEmbed, TwitterMomentShare, TwitterDMButton, TwitterVideoEmbed, TwitterOnAirButton } from 'react-twitter-embed';
+import { TwitterTimelineEmbed, TwitterFollowButton } from 'react-twitter-embed';
 
 export default function SocialMedia() {
   return (
