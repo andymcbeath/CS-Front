@@ -22,7 +22,7 @@ export default function Booking() {
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", paddingTop: "2rem", paddingBottom: "3rem"}}>
       <Card className="shadow d-flex flex-column align-items-center" style={{width: "75%"}} >
         <Card.Body className="d-flex flex-column align-items-center">
-          <h1>Book Us Today!</h1>
+          <h2>Book Us Today!</h2>
           <Formik
             validationSchema={schema}
             initialValues={{

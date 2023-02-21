@@ -5,6 +5,7 @@ import PhotoOfBand from "../components/photo-of-band";
 import ReactPlayer from 'react-player';
 import Card from "react-bootstrap/Card";
 import YoutubeVids from './YoutubeVids';
+import { auto } from '@popperjs/core';
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
       </Row>
       <Row className="d-flex justify-content-center">
         <Card className="shadow" style={{ width: '1600px', height: '900px' }}>
-          <ReactPlayer url="https://soundcloud.com/user-689447295-942243342/sets/caught-steelin-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" width={1600} height={900} />
+          <ReactPlayer url="https://soundcloud.com/user-689447295-942243342/sets/caught-steelin-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" width={"1600px"} height={"900px"} />
         </Card>
       </Row>
     </Container>
