@@ -1,6 +1,6 @@
 import { TwitterEmbed } from 'react-twitter-embed';
 import Container from "react-bootstrap/Container";
-import { InstagramEmbed } from 'react-instagram-embed';
+import { InstagramEmbed } from 'react-embed';
 import Row from "react-bootstrap/Row";
 import Card from 'react-bootstrap/Card';
 
