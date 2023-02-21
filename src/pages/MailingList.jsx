@@ -40,7 +40,7 @@ export default function MailingList() {
         <Card className="shadow d-flex flex-column align-items-center" style={{ width: "75%" }}>
           <Card.Body className="d-flex flex-column align-items-center">
             <Row>
-              <h1>Stay Up To Date with All Things Caught Steelin!</h1>
+              <h2>Stay Up To Date with All Things Caught Steelin!</h2>
             </Row>
             <Form noValidate onSubmit={formik.handleSubmit}>
               <Row className="mb-6">
