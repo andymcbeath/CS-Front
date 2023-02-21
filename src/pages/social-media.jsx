@@ -1,4 +1,4 @@
-import { TwitterEmbed } from 'react-twitter-embed';
+import { TwitterEmbed } from 'react-social-media-embed';
 import Container from "react-bootstrap/Container";
 import { InstagramEmbed } from 'react-social-media-embed';
 import Row from "react-bootstrap/Row";
