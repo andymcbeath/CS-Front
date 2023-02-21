@@ -120,10 +120,10 @@ export default function Booking() {
         </Card.Body>
       </Card>
       <Row className="Logo-title" style={{ marginTop: "3rem"}}>
-        <img src="../src/assets/logo-picture.png" alt="Caught-Steelin-Logo" />
+        <img src="/assets/logo-picture.png" alt="Caught-Steelin-Logo" />
       </Row>
      <Card className="BioPic shadow d-flex flex-column align-items-center" style={{width: "100%", marginTop: "4rem"}} >
-      <Card.Img src="../src/assets/On-Tour-Photo.jpg" alt="Card image" />
+      <Card.Img src="/assets/On-Tour-Photo.jpg" alt="Card image" />
      </Card>
     </div>
   )

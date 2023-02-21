@@ -13,7 +13,7 @@ export default function Navigator() {
         <Navbar.Brand href="/">
           <img
             alt=""
-            src="/src/assets/logo.png"
+            src="/assets/logo.png"
             width="100%"
             height="60vh"
             className="d-inline-block align-top"

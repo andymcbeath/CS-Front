@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <Container fluid justifyContent="center" style={{ width: "75%", paddingTop: "2rem", paddingBottom: "2rem" }}>
       <Row className="Logo-title">
-        <img src="../src/assets/logo.png" alt="Caught-Steelin-Logo" />
+        <img src="/assets/logo.png" alt="Caught-Steelin-Logo" />
       </Row>
       <Row className="Title">
         <h1>A Steel Band of Baseball Fans</h1>
