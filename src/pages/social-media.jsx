@@ -13,7 +13,7 @@ export default function SocialMedia() {
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
             <TwitterTimelineEmbed
               sourceType="profile"
-              screenName="saurabhnemade"
+              screenName="caught_steelin"
               options={{height: 400}}
             />
           </div>
