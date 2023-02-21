@@ -37,7 +37,7 @@ export default function MailingList() {
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "center", alignContent: "center", paddingTop: "3rem", paddingBottom: "4rem" }}>
-        <Card className="shadow d-flex flex-column align-items-center" style={{ width: "75%" }}>
+        <Card className="d-flex flex-column align-items-center" style={{ width: "75%" }}>
           <Card.Body className="d-flex flex-column align-items-center">
             <Row>
               <h2>Stay Up To Date with All Things Caught Steelin!</h2>
@@ -96,9 +96,7 @@ export default function MailingList() {
           </Card.Body>
         </Card>
       </div>
-      <Card className="shadow d-flex" style={{ marginTop: "1rem", alignSelf: "center", width: "100%"}}>
-          <PhotoOfBand />
-      </Card>
+        <PhotoOfBand />
     </div>
   );
 }

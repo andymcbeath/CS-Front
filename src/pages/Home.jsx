@@ -18,7 +18,6 @@ export default function Home() {
       <Row className="py-4">
         <PhotoOfBand />
       </Row>
-      <YoutubeVids />
       <Row className="d-flex justify-content-center">
         <Card className="shadow" style={{ width: '800px', height: '450px' }}>
           <ReactPlayer url="https://soundcloud.com/user-689447295-942243342/sets/caught-steelin-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" width={800} height={450} />
