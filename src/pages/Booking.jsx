@@ -6,8 +6,9 @@ import Row from 'react-bootstrap/Row'
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import Card from 'react-bootstrap/Card'
-
 import axios from 'axios';
+
+
 
 const schema = Yup.object().shape({
   firstName: Yup.string().required(),
@@ -18,8 +19,8 @@ const schema = Yup.object().shape({
 
 export default function Booking() {
   return (
-    <div style={{ display: "flex", flexDirection: "column", alignItems: "center"}}>
-      <Card className="shadow d-flex flex-column align-items-center" style={{width: "75%"}} border="dark">
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", paddingTop: "2rem", paddingBottom: "3rem"}}>
+      <Card className="shadow d-flex flex-column align-items-center" style={{width: "75%"}} >
         <Card.Body className="d-flex flex-column align-items-center">
           <h1>Book Us Today!</h1>
           <Formik
@@ -52,7 +53,7 @@ export default function Booking() {
               <Form noValidate onSubmit={handleSubmit}>
                 <Row className="mb-3">
                   <Form.Group as={Col} md="6" hasvalidation="true" controlId="validationFormik01">
-                    <Form.Label>First name:</Form.Label>
+                    <Form.Label>First name</Form.Label>
                     <Form.Control
                       type="text"
                       name="firstName"
@@ -66,7 +67,7 @@ export default function Booking() {
                     <Form.Control.Feedback>Thank you!</Form.Control.Feedback>
                   </Form.Group>
                   <Form.Group as={Col} md="6" controlId="validationFormik02">
-                    <Form.Label>Last name:</Form.Label>
+                    <Form.Label>Last name</Form.Label>
                     <Form.Control
                       type="text"
                       name="lastName"
@@ -98,7 +99,7 @@ export default function Booking() {
                 </Row>
                 <Row className="mb-6">
                   <Form.Group as={Col} md="12" controlId="validationFormik02">
-                    <Form.Label>Please Describe Your Event:</Form.Label>
+                    <Form.Label>Please Describe Your Event</Form.Label>
                     <Form.Control
                       as="textarea"
                       type="text"
@@ -118,6 +119,12 @@ export default function Booking() {
           </Formik>
         </Card.Body>
       </Card>
+      <Row className="Logo-title" style={{ marginTop: "3rem"}}>
+        <img src="../src/assets/logo-picture.png" alt="Caught-Steelin-Logo" />
+      </Row>
+     <Card className="BioPic shadow d-flex flex-column align-items-center" style={{width: "100%", marginTop: "4rem"}} >
+      <Card.Img src="../src/assets/On-Tour-Photo.jpg" alt="Card image" />
+     </Card>
     </div>
   )
 }

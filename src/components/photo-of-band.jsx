@@ -1,13 +1,13 @@
-import Card from 'react-bootstrap/Card';
+import Card from "react-bootstrap/Card"
 
 export default function PhotoOfBand() {
   return (
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
-      <Card className="shadow d-flex flex-column align-items-center" style={{width: "75%", color: 'white'}}>
+      <Card className="shadow d-flex flex-column align-items-center" style={{width: "100%", color: "rgb(248, 249, 250)"}}>
         <Card.Img src="../src/assets/Photo1.jpeg" alt="Card image" />
         <Card.ImgOverlay>
-          <Card.Title style={{fontSize: "7rem", textAlign: "center", justifyContent: "center", alignItems: "center"}}>Caught Steelin'</Card.Title>
-          <Card.Text style={{fontFamily: "Baseball", fontSize: "2rem", position: 'absolute', bottom: 0, left: 0, color: 'white'}}>
+          <Card.Title style={{fontSize: "4vw", textAlign: "center", alignItems: "center", position: "top"}}>Caught Steelin'</Card.Title>
+          <Card.Text style={{fontFamily: "Baseball", fontSize: "1.2vw", position: "inherit", bottom: 0, left: 0, color: "rgb(248, 249, 250)"}}>
             Caught Steelin' is:
             <br />
             Tim Berg - Lead
