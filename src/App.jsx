@@ -24,9 +24,9 @@ function App() {
           <Route path="/Booking" element={<Booking />} />
           <Route path="/Merch" element={<Merch />} />
           <Route path="/Calendar" element={<CalendarEvents />} />
-          <Route path="/media/AboutUs" element={<AboutUs />} />
-          <Route path="/media/YoutubeVids" element={<YoutubeVids />} />
-         <Route path="/media/social-media" element={<SocialMedia />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/YoutubeVids" element={<YoutubeVids />} />
+         <Route path="/social-media" element={<SocialMedia />} />
          <Route path="/mailing-list" element={<MailingList />} />
         </Routes>
       </BrowserRouter>
