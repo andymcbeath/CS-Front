@@ -6,8 +6,8 @@ export default function PhotoOfBand() {
       <Card className="shadow d-flex flex-column align-items-center" style={{width: "100%", color: "rgb(248, 249, 250)"}}>
         <Card.Img src="/assets/Photo1.jpeg" alt="Card image" />
         <Card.ImgOverlay>
-          <Card.Title style={{fontSize: "4vw", textAlign: "center", alignItems: "center", position: "top"}}>Caught Steelin'</Card.Title>
-          <Card.Text style={{fontFamily: "Baseball", fontSize: "1.2vw", position: "inherit", bottom: 0, left: 0, color: "rgb(248, 249, 250)"}}>
+          <Card.Title style={{fontSize: "5vw", textAlign: "center", alignItems: "center", position: "top"}}>Caught Steelin'</Card.Title>
+          <Card.Text style={{fontFamily: "Palatino", fontSize: "1.5vw", position: "inherit", bottom: 0, left: 0, color: "rgb(248, 249, 250)"}}>
             Caught Steelin' is:
             <br />
             Tim Berg - Lead
