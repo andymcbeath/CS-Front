@@ -29,10 +29,10 @@ export default function Navigator() {
             <Link className="nav-link" to="/Booking">Booking</Link>
             <Link className="nav-link" to="/Merch">Merch</Link>
             <NavDropdown title="Media" id="basic-nav-dropdown">
-              <Link className="dropdown-item" to="/media/AboutUs">About Us</Link>
-              <Link className="dropdown-item" to="/media/YoutubeVids">YoutubeVids</Link>
+              <Link className="dropdown-item" to="/AboutUs">About Us</Link>
+              <Link className="dropdown-item" to="/YoutubeVids">YoutubeVids</Link>
               <NavDropdown.Divider />
-              <Link className="dropdown-item" to="/media/social-media">Social Media</Link>
+              <Link className="dropdown-item" to="/social-media">Social Media</Link>
             </NavDropdown>
             <Link className="nav-link" to="/mailing-list">Mailing List</Link>
           </Nav>
