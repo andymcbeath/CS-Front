@@ -4,7 +4,7 @@ const { InstagramEmbed } = require('react-social-media-embed');
 const Row = require("react-bootstrap/Row");
 const Card = require('react-bootstrap/Card');
 
-function SocialMedia() {
+export default function SocialMedia() {
   return (
     <Container fluid>
       <h1>What's Happenin'</h1>
@@ -31,4 +31,3 @@ function SocialMedia() {
   );
 }
 
-module.exports = SocialMedia;
