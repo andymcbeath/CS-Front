@@ -33,7 +33,7 @@ export default function Booking() {
             }}
             onSubmit={async (values) => {
               try{
-                const host = import.meta.env.PROD ? 
+                const host = import.meta.env.PROD
                 
               await axios.post("http://localhost:3000/bookings", values);
               alert("Form submitted successfully!");
