@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import ApiCalendar from 'react-google-calendar-api';
 
 const config = {
-  "clientId": "997399355643-97vpaott2ap7ff5hem2cun307sf22rpk.apps.googleusercontent.com",
-  "apiKey": "AIzaSyCRBPPSNzAFyZMcrbFZYrf6Z6F26e6dGzI",
+  "clientId": "shit",
+  "apiKey": "shit",
   "scope": "https://www.googleapis.com/auth/calendar",
   "discoveryDocs": [
     "https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"
