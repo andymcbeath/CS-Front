@@ -20,15 +20,14 @@ export default function Home() {
         <PhotoOfBand />
       </Row>
       <Card className="shadow d-flex flex-column align-items-center" style={{ marginTop: "1rem"}}>
-        <YouTubeEmbed url="https://www.youtube.com/watch?v=dOyEhaNnqZ8" width={"100%"} height={1100}/>
+        <YouTubeEmbed url="https://www.youtube.com/watch?v=dOyEhaNnqZ8" width={"100%"} height={"800"}/>
       </Card>
       <Card className="shadow d-flex flex-column align-items-center" style={{ marginTop: "3rem"}}>
-        <YouTubeEmbed url="https://www.youtube.com/watch?v=S5vXaIzwCQ8" width={"110%"} height={1100}/>
+        <YouTubeEmbed url="https://www.youtube.com/watch?v=S5vXaIzwCQ8" width={"100%"} height={"800"}/>
       </Card>
       <Card className="shadow d-flex flex-column align-items-center" style={{ marginTop: "3rem"}}>
-        <ReactPlayer url="https://soundcloud.com/user-689447295-942243342/sets/caught-steelin-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" width={"100%"} height={1600}/>
+        <ReactPlayer url="https://soundcloud.com/user-689447295-942243342/sets/caught-steelin-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" width={"100%"} height={1200}/>
       </Card>
     </Container>
-
   );
 }
