@@ -33,7 +33,7 @@ export default function Booking() {
             }}
             onSubmit={async (values) => {
               try{
-                const host = import.meta.env.PROD
+                const host = 
                 
               await axios.post("http://localhost:3000/bookings", values);
               alert("Form submitted successfully!");
@@ -83,7 +83,7 @@ export default function Booking() {
                     <Form.Control.Feedback>Thank you!</Form.Control.Feedback>
                   </Form.Group>
                 </Row>
-                <Row className="mb-6">
+                <Row className="mb-6" style={{ paddingBottom: "1rem"}}>
                   <Form.Group as={Col} md="8" controlId="validationFormik01">
                     <Form.Label>Email</Form.Label>
                     <Form.Control
@@ -99,7 +99,7 @@ export default function Booking() {
                     <Form.Control.Feedback>Thank you!</Form.Control.Feedback>
                   </Form.Group>
                 </Row>
-                <Row className="mb-6">
+                <Row className="mb-6" style={{ paddingBottom: "1rem"}}>
                   <Form.Group as={Col} md="12" controlId="validationFormik02">
                     <Form.Label>Please Describe Your Event</Form.Label>
                     <Form.Control

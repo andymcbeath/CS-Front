@@ -4,7 +4,6 @@ import "../fonts/Bulletto-Killa.ttf";
 import PhotoOfBand from "../components/photo-of-band";
 import ReactPlayer from 'react-player'
 import Card from "react-bootstrap/Card"
-import Bio from "../components/Bio"
 import { YouTubeEmbed } from 'react-social-media-embed';
 
 
