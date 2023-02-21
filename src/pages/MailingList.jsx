@@ -56,7 +56,7 @@ export default function MailingList() {
                     isValid={formik.touched.firstName && !formik.errors.firstName}
                     className={formik.touched.firstName && !formik.errors.firstName ? "is-valid" : formik.touched.firstName ? "is-invalid" : ""}
                   />
-                  <Form.Control.Feedback type="invalid">Please enter your first name</Form.Control.Feedback>
+                  <Form.Control.Feedback type="invalid">Please enter your first name!</Form.Control.Feedback>
                   <Form.Control.Feedback>Thank you!</Form.Control.Feedback>
                 </Form.Group>
                 <Form.Group as={Col} md="6" hasvalidation="true" controlId="validationFormik02">

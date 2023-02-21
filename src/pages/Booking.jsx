@@ -65,7 +65,7 @@ export default function Booking() {
                       isValid={touched.firstName && !errors.firstName}
                       className={touched.firstName && !errors.firstName ? 'is-valid' : touched.firstName ? 'is-invalid' : ''}
                     />
-                    <Form.Control.Feedback type="invalid">Please enter your first name</Form.Control.Feedback>
+                    <Form.Control.Feedback type="invalid">Please enter your first name!</Form.Control.Feedback>
                     <Form.Control.Feedback>Thank you!</Form.Control.Feedback>
                   </Form.Group>
                   <Form.Group as={Col} md="6" controlId="validationFormik02">
