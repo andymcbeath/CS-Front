@@ -1,8 +1,8 @@
-const { TwitterEmbed } = require('react-social-media-embed');
-const Container = require("react-bootstrap/Container");
-const { InstagramEmbed } = require('react-social-media-embed');
-const Row = require("react-bootstrap/Row");
-const Card = require('react-bootstrap/Card');
+import { TwitterEmbed } from 'react-social-media-embed';
+import Container from "react-bootstrap/Container";
+import { InstagramEmbed } from 'react-social-media-embed';
+import Row from "react-bootstrap/Row";
+import Card from 'react-bootstrap/Card';
 
 export default function SocialMedia() {
   return (
@@ -30,4 +30,3 @@ export default function SocialMedia() {
     </Container>
   );
 }
-
