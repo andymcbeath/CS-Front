@@ -5,9 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import Booking from "./pages/Booking";
 import  Merch from "./pages/Merch";
-import AboutUs from "./pages/media/AboutUs";
-import  YoutubeVids  from "./pages/media/YoutubeVids";
-import SocialMedia from './pages/media/social-media'
+import AboutUs from "./pages/AboutUs";
+import  YoutubeVids  from "./pages/YoutubeVids";
+import SocialMedia from './pages/social-media'
 import MailingList from "./pages/MailingList";
 import CalendarEvents from "./pages/Calendar";
 
