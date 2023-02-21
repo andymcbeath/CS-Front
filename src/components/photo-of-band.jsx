@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card"
 export default function PhotoOfBand() {
   return (
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center"}}>
-      <Card className="shadow d-flex flex-column align-items-center" style={{width: "100%", color: "rgb(248, 249, 250)"}}>
+      <Card className="shadow d-flex flex-column align-items-center" style={{width: 1200, color: "rgb(248, 249, 250)"}}>
         <Card.Img src="/assets/Photo1.jpeg" alt="Card image" />
         <Card.ImgOverlay>
           <Card.Title style={{fontSize: "5vw", textAlign: "center", alignItems: "center", position: "top"}}>Caught Steelin'</Card.Title>
