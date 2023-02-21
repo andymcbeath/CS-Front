@@ -28,12 +28,9 @@ export default function Navigator() {
           <Nav className="me-auto">
             <Link className="nav-link" to="/Home">Home</Link>
             <Link className="nav-link" to="/Booking">Booking</Link>
-            <Link className="nav-link" to="/Merch">Merch</Link>
             <NavDropdown title="Media" id="basic-nav-dropdown">
               <Link className="dropdown-item" to="/AboutUs">About Us</Link>
               <Link className="dropdown-item" to="/YoutubeVids">YoutubeVids</Link>
-              <NavDropdown.Divider />
-              <Link className="dropdown-item" to="/pages/social-media">Social Media</Link>
             </NavDropdown>
             <Link className="nav-link" to="/mailing-list">Mailing List</Link>
           </Nav>
