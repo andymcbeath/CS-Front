@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from "react-router-dom";
-import SocialMediaLinks from '/social-media-links';
+
 
 export default function Navigator() {
   return (
@@ -32,7 +32,7 @@ export default function Navigator() {
               <Link className="dropdown-item" to="/AboutUs">About Us</Link>
               <Link className="dropdown-item" to="/YoutubeVids">YoutubeVids</Link>
               <NavDropdown.Divider />
-              <Link className="dropdown-item" to="/social-media">Social Media</Link>
+              <Link className="dropdown-item" to="/pages/social-media">Social Media</Link>
             </NavDropdown>
             <Link className="nav-link" to="/mailing-list">Mailing List</Link>
           </Nav>
