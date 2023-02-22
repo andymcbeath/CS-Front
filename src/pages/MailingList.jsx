@@ -43,8 +43,8 @@ export default function MailingList() {
               <h3>Stay Up To Date with All Things Caught Steelin!</h3>
             </Row>
             <Form noValidate onSubmit={formik.handleSubmit}>
-              <Row className="mb-6">
-                <Form.Group as={Col} md="6" hasvalidation="true" controlId="validationFormik01">
+              <Row className="mb-12">
+                <Form.Group as={Col} md="12" hasvalidation="true" controlId="validationFormik01">
                   <Form.Label>First name</Form.Label>
                   <Form.Control
                     required
@@ -59,7 +59,7 @@ export default function MailingList() {
                   <Form.Control.Feedback type="invalid">Please enter your first name!</Form.Control.Feedback>
                   <Form.Control.Feedback>Thank you!</Form.Control.Feedback>
                 </Form.Group>
-                <Form.Group as={Col} md="6" hasvalidation="true" controlId="validationFormik02">
+                <Form.Group as={Col} md="12" hasvalidation="true" controlId="validationFormik02">
                   <Form.Label>Last name</Form.Label>
                   <Form.Control
                     required
@@ -76,7 +76,7 @@ export default function MailingList() {
                 </Form.Group>
               </Row>
               <Row className="mb-3">
-                <Form.Group as={Col} md="8" hasvalidation="true" controlId="validationFormik01">
+                <Form.Group as={Col} md="12" hasvalidation="true" controlId="validationFormik01">
                   <Form.Label>Email</Form.Label>
                   <Form.Control
                     type="email"

@@ -54,7 +54,7 @@ export default function Booking() {
             }) => (
               <Form noValidate onSubmit={handleSubmit}>
                 <Row className="mb-3">
-                  <Form.Group as={Col} md="6" hasvalidation="true" controlId="validationFormik01">
+                  <Form.Group as={Col} md="12" hasvalidation="true" controlId="validationFormik01">
                     <Form.Label>First name</Form.Label>
                     <Form.Control
                       type="text"
@@ -68,7 +68,7 @@ export default function Booking() {
                     <Form.Control.Feedback type="invalid">Please enter your first name!</Form.Control.Feedback>
                     <Form.Control.Feedback>Thank you!</Form.Control.Feedback>
                   </Form.Group>
-                  <Form.Group as={Col} md="6" controlId="validationFormik02">
+                  <Form.Group as={Col} md="12" controlId="validationFormik02">
                     <Form.Label>Last name</Form.Label>
                     <Form.Control
                       type="text"
@@ -83,8 +83,8 @@ export default function Booking() {
                     <Form.Control.Feedback>Thank you!</Form.Control.Feedback>
                   </Form.Group>
                 </Row>
-                <Row className="mb-6" style={{ paddingBottom: "1rem"}}>
-                  <Form.Group as={Col} md="8" controlId="validationFormik01">
+                <Row className="mb-12" style={{ paddingBottom: "1rem"}}>
+                  <Form.Group as={Col} md="12" controlId="validationFormik01">
                     <Form.Label>Email</Form.Label>
                     <Form.Control
                       type="email"

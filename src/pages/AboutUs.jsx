@@ -17,8 +17,8 @@ export default function AboutUs() {
       <Row className="Logo-title" style={{ marginTop: "1rem"}}>
           <PhotoOfBand />
       </Row>
-      <Row className="Logo-title" style={{ marginTop: "1rem" }}>
-        <img src="/assets/logo-picture.png" alt="Caught-Steelin-Logo" />
+      <Row className="Logo-title" style={{ marginTop: "1rem"}}>
+        <img src="/assets/logo-picture.png" alt="Caught-Steelin-Logo" style={{ width: "50%", height: "auto",  margin: "0 auto" }} />
       </Row>
     </div>
   );
