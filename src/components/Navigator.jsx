@@ -30,7 +30,7 @@ export default function Navigator() {
             <Link className="nav-link" to="/Booking">Booking</Link>
             <NavDropdown title="Media" id="basic-nav-dropdown">
               <Link className="dropdown-item" to="/AboutUs">About Us</Link>
-              <Link className="dropdown-item" to="/YoutubeVids">YoutubeVids</Link>
+              <Link className="dropdown-item" to="/YoutubeVids">Youtube Vids</Link>
             </NavDropdown>
             <Link className="nav-link" to="/mailing-list">Mailing List</Link>
           </Nav>

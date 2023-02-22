@@ -19,8 +19,8 @@ export default function Home() {
         <PhotoOfBand />
       </Row>
       <Row className="d-flex justify-content-center">
-        <Card className="shadow" style={{ width: '1600px', height: '900px' }}>
-          <ReactPlayer url="https://soundcloud.com/user-689447295-942243342/sets/caught-steelin-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" width={"1600px"} height={"900px"} />
+        <Card className="d-flex shadow" style={{ width: '1600', height: '900' }}>
+          <ReactPlayer url="https://soundcloud.com/user-689447295-942243342/sets/caught-steelin-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" width={"100vw"} height={"120vh"} />
         </Card>
       </Row>
     </Container>

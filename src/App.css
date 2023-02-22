@@ -75,3 +75,8 @@ h3 {
   font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: x-large;
 }
+.top-image {
+  width: 100%;
+  max-width: 600px;
+  height: 100vh;
+}
