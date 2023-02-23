@@ -21,7 +21,7 @@ html {
   padding-top: 2rem;
   text-align: center;
   height: auto;
-  font-size: 6rem;
+  font-size: xx-large;
   font-family: 'Chicago';
   color: rgb(13, 42, 74)
 }
@@ -29,25 +29,25 @@ h1 {
   text-align: center;
   font-family: 'OldSport';
   height: auto;
-  font-size: 3rem;
+  font-size: xx-large;
   color: rgb(13, 42, 74)
 }
 h2 {
   text-align: center;
   font-family: 'OldSport';
   height: auto;
-  font-size: 3.8vw;
+  font-size: xx-large;
   color: rgb(13, 42, 74)
 }
 h3 {
   text-align: center;
   font-family: 'OldSport';
   height: auto;
-  font-size: 2.6rem;
+  font-size: xx-large;
   color: rgb(13, 42, 74)
 }
 .Title h1 {
-  font-size: xx-large;
+  font-size: 5rem;
   line-height: auto;
 }
 .navbar-nav {
