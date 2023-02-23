@@ -9,9 +9,6 @@ import Card from "react-bootstrap/Card";
 export default function Home() {
   return (
     <Container fluid style={{ paddingTop: "2rem", paddingBottom: "2rem" }}>
-      <Row className="d-flex justify-content-center">
-        <img src="/assets/logo.png" alt="Caught-Steelin-Logo" style={{maxWidth: "69%"}}/>
-      </Row>
       <Row className="Title">
         <h1>A Steel Band of Baseball Fans</h1>
       </Row>
