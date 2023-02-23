@@ -29,7 +29,7 @@ h1 {
   text-align: center;
   font-family: 'OldSport';
   height: auto;
-  font-size: auto;
+  font-size: 3rem;
   color: rgb(13, 42, 74)
 }
 h2 {
@@ -47,9 +47,9 @@ h3 {
   color: rgb(13, 42, 74)
 }
 .Title h1 {
-  padding-top: 1rem;
-  font-size: 4vw;
-  line-height: 6vh;
+  padding-top: .3rem;
+  font-size: 4rem;
+  line-height: auto;
 }
 .navbar-nav {
   display: flex;
