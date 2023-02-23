@@ -15,8 +15,8 @@ export default function Navigator() {
           <img
             alt=""
             src="/assets/logo.png"
-            width="100%"
-            height="60vh"
+            width="200rem"
+            height="auto"
             className="d-inline-block align-top"
           />
         </Navbar.Brand>
