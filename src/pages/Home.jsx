@@ -8,7 +8,7 @@ import Card from "react-bootstrap/Card";
 
 export default function Home() {
   return (
-    <Container fluid style={{ paddingTop: "2rem", paddingBottom: "2rem" }}>
+    <Container fluid style={{ paddingTop: "2rem", paddingBottom: "1rem" }}>
       <Row className="Title">
         <h1>A Steel Band of Baseball Fans</h1>
       </Row>
