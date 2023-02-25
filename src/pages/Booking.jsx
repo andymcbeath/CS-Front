@@ -32,14 +32,12 @@ export default function Booking() {
               event: ''
             }}
             onSubmit={async (values) => {
-              try{
-                const host = 
-                
-              await axios.post("http://localhost:3000/bookings", values);
-              alert("Form submitted successfully!");
-            } catch (error) {
-              console.error(error);
-              alert("Form submission failed");
+              try {
+                await axios.post("https://caught-back.fly.dev/bookings", values);
+                alert("Form submitted successfully!");
+              } catch (error) {
+                console.error(error);
+                alert("Form submission failed");
               }
             }}
           >
