@@ -20,7 +20,7 @@ const schema = Yup.object().shape({
 export default function Booking() {
   const handleSubmit = async (values) => {
     try {
-      await axios.post("caught-back.fly.dev", values);
+      await axios.post("/bookings", values);
       alert("Form submitted successfully!");
     } catch (error) {
       console.error(error);
