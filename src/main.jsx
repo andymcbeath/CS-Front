@@ -5,7 +5,7 @@ import './App.css'
 import axios from "axios";
 
 axios.defaults.baseURL =
-  process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://caught-back.fly.dev";
+  process.env.NODE_ENV === "development" ? "http://localhost:3000" : "http://caught-back-db.fly.dev";
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

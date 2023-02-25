@@ -25,7 +25,7 @@ export default function MailingList() {
     },
     onSubmit: async (values) => {
       try {
-        await axios.post("http://localhost:3000/contacts", values);
+        await axios.post("/mailings", values);
         alert("Form submitted successfully!");
       } catch (error) {
         console.error(error);
