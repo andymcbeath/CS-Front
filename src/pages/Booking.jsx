@@ -18,6 +18,16 @@ const schema = Yup.object().shape({
 });
 
 export default function Booking() {
+  const handleSubmit = async (values) => {
+    try {
+      await axios.post("/.netlify/functions/bookings", values);
+      alert("Form submitted successfully!");
+    } catch (error) {
+      console.error(error);
+      alert("Form submission failed");
+    }
+  }
+
   return (
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", paddingTop: "2rem", paddingBottom: "3rem"}}>
       <Card className="shadow d-flex flex-column align-items-center" style={{width: "75%"}} >
@@ -31,15 +41,7 @@ export default function Booking() {
               email: '',
               event: ''
             }}
-            onSubmit={async (values) => {
-              try {
-                await axios.post("https://caught-back.fly.dev/bookings", values);
-                alert("Form submitted successfully!");
-              } catch (error) {
-                console.error(error);
-                alert("Form submission failed");
-              }
-            }}
+            onSubmit={handleSubmit}
           >
             {({
               handleSubmit,
