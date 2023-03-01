@@ -3,8 +3,8 @@ import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 import Container from "react-bootstrap/Container";
 
 export default function YoutubeVids() {
-  const videoWidth = 800;
-  const videoHeight = (9 / 16) * videoWidth; // assuming 16:9 aspect ratio
+  const videoWidth = 900;
+  const videoHeight = (9 / 16) * videoWidth; 
 
   return (
     <Container fluid alignContent="center" style={{ paddingTop: "3rem", paddingBottom: "3rem" }}>
